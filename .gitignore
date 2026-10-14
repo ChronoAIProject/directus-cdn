@@ -1,0 +1,21 @@
+# Env
+.env
+.env.local
+.env.*.local
+
+# Local file storage (dev only) — keep folder, ignore contents
+uploads/*
+!uploads/.gitkeep
+
+# Node
+node_modules/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
